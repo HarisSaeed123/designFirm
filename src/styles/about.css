@@ -1,0 +1,627 @@
+.aboutContainer {
+    width: 100%;
+}
+
+.aboutParent {
+    width: 100%;
+    background-color: white;
+    margin-top: -100px;
+    height: 220px;
+}
+
+.about {
+    margin-top: 100px;
+    margin-left: 135px;
+}
+
+.about h1 {
+    font-size: 50px;
+    font-family: "open sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 80px;
+}
+
+.aboutImage {
+    margin-left: 135px;
+    margin-top: -40px;
+}
+
+.aboutImage img {
+    width: 95%;
+    height: 1000px;
+}
+
+.aboutText {
+    width: 45%;
+    margin-left: 132px;
+    margin-top: 65px;
+}
+
+.aboutText h1 {
+    color: grey;
+    font-family: "Josefin Sans", Arial, "sans-serif";
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: -0.8px;
+    line-height: 58px;
+}
+
+.aboutImage1 {
+    width: 70%;
+    margin-top: 70px;
+    margin-left: 410px;
+}
+
+.aboutImage1 img {
+    height: 1050px;
+}
+
+.textabout {
+    width: 100%;
+    margin-left: 130px;
+    margin-top: 55px;
+}
+
+.textabout h1 {
+    font-family: "open sans", sans-serif;
+    margin-bottom: 10px;
+    height: 70px;
+    font-size: 30px;
+}
+
+.textabout h1 span {
+    font-size: 28px;
+}
+
+.textabout hr {
+    width: 1600px;
+}
+
+#firstPara {
+    width: 1600px;
+    font-family: "open sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(128, 128, 128);
+    margin-top: 25px;
+}
+
+#secondPara {
+    width: 1600px;
+    font-family: "open sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(128, 128, 128);
+    margin-top: 20px;
+}
+
+#show {
+    display: none;
+}
+
+#hide {
+    display: none;
+}
+
+.portrait {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.portrait img {
+    width: 20%;
+    height: 20%;
+}
+
+.portraitText {
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.childText {
+    width: 2000px;
+}
+
+.childText h1 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    letter-spacing: 10px;
+    padding-left: 28px;
+    line-height: 60px;
+}
+
+.childText p {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    margin-left: 27px;
+    margin-top: 15px;
+}
+
+.childText hr {
+    display: none;
+}
+
+#foot {
+    margin-top: 50px;
+}
+
+@media (max-width : 576px) {
+    .aboutContainer {
+        width: 100%;
+    }
+
+    .aboutParent {
+        background-color: white;
+        margin-top: -100px;
+        height: 220px;
+    }
+
+    .about {
+        margin-left: 10px;
+    }
+
+    .about h1 {
+        font-size: 20px;
+        font-family: "open sans", sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .aboutImage {
+        margin-left: 0px;
+        margin-top: -90px;
+    }
+
+    .aboutImage img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .aboutText {
+        width: 85%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .aboutText h1 {
+        color: grey;
+        font-family: "Josefin Sans", Arial, "sans-serif";
+        font-size: 18px;
+        font-weight: 100;
+        letter-spacing: -0.8px;
+        line-height: 30px;
+    }
+
+    .aboutImage1 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+
+    .aboutImage1 img {
+        height: 220px;
+    }
+
+    .textabout {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 45px;
+    }
+
+    .textabout hr {
+        margin-top: -15px;
+        width: 83%;
+    }
+
+    .textabout h1 {
+        font-family: "open sans", sans-serif;
+        margin-bottom: 10px;
+        height: 70px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .textabout h1 span {
+        font-size: 18px;
+    }
+
+    .textabout #firstPara {
+        width: 90%;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: rgb(128, 128, 128);
+    }
+
+    .textabout #secondPara {
+        width: 90%;
+        display: block;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: rgb(128, 128, 128);
+        margin-top: 6px;
+    }
+
+    #secondPara span {
+        display: none;
+    }
+
+    #show {
+        cursor: pointer;
+        display: block;
+        margin-top: 10px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+    }
+
+    #hide {
+        display: none;
+        cursor: pointer;
+        margin-top: 10px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+    }
+
+    .textabout span {
+        font-family: "open sans", sans-serif;
+        margin-top: 5px;
+    }
+
+    .portrait {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .portrait img {
+        width: 65%;
+        height: 350px;
+        margin-left: 20px;
+    }
+
+    .portraitText {
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+    .childText {
+        width: 97%;
+    }
+
+    .childText h1 {
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        letter-spacing: 3px;
+        padding-left: 20px;
+        line-height: 25px;
+    }
+
+    .childText p {
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width : 577px) and (max-width : 992px) {
+    .aboutContainer {
+        width: 100%;
+    }
+
+    .aboutParent {
+        background-color: white;
+        margin-top: -100px;
+        height: 220px;
+    }
+
+    .about {
+        margin-left: 10px;
+    }
+
+    .about h1 {
+        font-size: 20px;
+        font-family: "open sans", sans-serif;
+        ;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .aboutImage {
+        margin-left: 0px;
+        margin-top: -90px;
+    }
+
+    .aboutImage img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .aboutText {
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+
+    .aboutText h1 {
+        color: grey;
+        font-family: "Josefin Sans", Arial, "sans-serif";
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: -0.8px;
+        line-height: 30px;
+    }
+
+    .aboutImage1 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+
+    .aboutImage1 img {
+        height: 400px;
+    }
+
+    .textabout {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 55px;
+    }
+
+    .textabout h1 {
+        font-family: "open sans", sans-serif;
+        margin-bottom: 10px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .textabout h1 span {
+        font-size: 18px;
+    }
+
+    .textabout #firstPara {
+        width: 90%;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: rgb(128, 128, 128);
+    }
+
+    .textabout #secondPara {
+        width: 90%;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: rgb(128, 128, 128);
+        margin-top: 6px;
+    }
+    #secondPara span{
+        display: none;
+    }
+    #show {
+        cursor: pointer;
+        display: block;
+        margin-top: 10px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+    }
+
+    #hide {
+        display: none;
+        cursor: pointer;
+        margin-top: 10px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+    }
+
+    .textabout span {
+        font-family: "open sans", sans-serif;
+        margin-top: 10px;
+    }
+
+    .portrait {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .portrait img {
+        width: 100%;
+        height: 650px;
+    }
+
+    .portraitText {
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+
+    .childText {
+        width: 100%;
+    }
+
+    .childText h1 {
+        font-size: 15px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        letter-spacing: 5px;
+        line-height: 20px;
+    }
+
+    .childText p {
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1632px) {
+    .aboutContainer {
+        width: 100%;
+    }
+
+    .aboutParent {
+        background-color: white;
+        margin-top: -100px;
+        height: 220px;
+    }
+
+    .about {
+        margin-left: 132px;
+    }
+
+    .about h1 {
+        font-size: 25px;
+        font-family: "open sans", sans-serif;
+        ;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .aboutImage {
+        margin-left: 130px;
+        margin-top: -90px;
+    }
+
+    .aboutImage img {
+        width: 90%;
+        height: 600px;
+    }
+
+    .aboutText {
+        width: 50%;
+        margin-left: 130px;
+        margin-top: 25px;
+    }
+
+    .aboutText h1 {
+        color: grey;
+        font-family: "Josefin Sans", Arial, "sans-serif";
+        font-size: 25px;
+        font-weight: 100;
+        letter-spacing: -0.8px;
+        line-height: 30px;
+    }
+
+    .aboutImage1 {
+        width: 82%;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+
+    .aboutImage1 img {
+        height: 550px;
+    }
+
+    .textabout {
+        width: 100%;
+        margin-left: 130px;
+        margin-top: 55px;
+    }
+
+    .textabout h1 {
+        font-family: "open sans", sans-serif;
+        margin-bottom: 10px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .textabout h1 span {
+        font-size: 18px;
+    }
+
+    .textabout hr {
+        width: 1125px;
+    }
+
+    #firstPara {
+        width: 80%;
+        font-family: "open sans", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: rgb(128, 128, 128);
+    }
+
+    #secondPara {
+        width: 80%;
+        font-family: "open sans", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: rgb(128, 128, 128);
+    }
+
+    #show {
+        display: none;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .portrait {
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 130px;
+    }
+
+    .portrait img {
+        width: 25%;
+        height: 25%;
+    }
+
+    .portraitText {
+        width: 100%;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+
+    .childText {
+        width: 80%;
+    }
+
+    .childText h1 {
+        font-size: 25px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        letter-spacing: 5px;
+        line-height: 30px;
+    }
+
+    .childText p {
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        margin-top: 15px;
+    }
+
+    .childText hr {
+        display: block;
+        margin-top: 110px;
+        width: 800px;
+        margin-left: 30px;
+    }
+}

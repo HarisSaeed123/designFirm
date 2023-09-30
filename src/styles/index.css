@@ -1,0 +1,1240 @@
+* {
+
+    margin-top: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#navbar {
+    background-color: black;
+    overflow: auto;
+    box-sizing: border-box;
+
+}
+
+#navbar img {
+    width: 50px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+#navbar .logo {
+    display: inline;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-family: "Josefin Sans", Arial, "sans-serif";
+    height: 20px;
+    display: inline-block;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#navbar ul {
+    float: right;
+    margin-top: 5px;
+}
+
+#navbar li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#navbar li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Hind";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 0px;
+    margin-right: 20px;
+}
+
+#navbar #search {
+    display: inline-block;
+    width: 20px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+#navbar #menu {
+    display: inline-block;
+    width: 18px;
+    margin-top: 2px;
+    cursor: pointer;
+
+}
+
+#menuLinks {
+    width: 335px;
+    height: 390px;
+    visibility: hidden;
+    position: fixed;
+    left: 80.6%;
+    top: 3%;
+    z-index: 10;
+    text-decoration: none;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+#menuLinks.menuList {
+    left: 81.7%;
+}
+
+#menuLinks li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+#menuLinks li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Arial";
+    padding-left: 20px;
+}
+
+#menuLinks.show {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+#menuLinks li a:hover {
+    color: lightgray;
+}
+
+#navbar ul li:nth-child(8) {
+    display: none;
+}
+
+#navbar ul li:nth-child(8) div {
+    border: 2px solid black;
+    width: 23px;
+    height: 7px;
+    background-color: white;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+#sideBarContainer {
+    visibility: hidden;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    background: white;
+    width: 426px;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 4s ease, visibility 4s linear 4s;
+    top: 0px;
+}
+
+#sideBarContainer.show {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.3s;
+
+}
+
+#sideBarContainer #closeSideMenu {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Josefin Sans", Arial, "sans-serif";
+    margin-left: 350px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 50px;
+    padding-left: 9px;
+    padding-top: 5.8px;
+    color: white;
+}
+
+.sideBarLogo h1 {
+    margin-left: 28%;
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: "Josefin Sans", Arial, "sans-serif";
+    letter-spacing: 6px;
+    font-weight: bold;
+}
+
+.sideBarLogo span {
+    font-size: 48px;
+}
+
+.sideBarSocialLinks {
+    margin-left: 16%;
+    margin-top: -10%;
+    ;
+
+}
+
+#sideBarContainer h4 {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Arial, "sans-serif";
+    font-weight: 700;
+}
+
+.sideBarLocation {
+    display: flex;
+    margin-top: 10%;
+}
+
+.sideBarLocation div:nth-child(1) {
+    margin-left: 40px;
+}
+
+.sideBarLocation div:nth-child(2) {
+    font-size: 15px;
+    margin-left: 12px;
+    font-weight: 600;
+    font-family: Hind, Arial, "sans-serif";
+}
+
+.sideBarEmail {
+    display: flex;
+}
+
+.sideBarEmail img {
+    width: 28px;
+    margin-left: 37px;
+    margin-top: 20px;
+}
+
+.sideBarEmail p {
+    margin-top: 21px;
+    margin-left: 13px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Hind, Arial, "sans-serif";
+}
+
+.sideBarPhone {
+    display: flex;
+}
+
+.sideBarPhone img {
+    width: 23px;
+    margin-left: 40px;
+    margin-top: 18px;
+}
+
+.sideBarPhone p {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Hind, Arial, "sans-serif";
+    margin-top: 17px;
+    margin-left: 12px;
+}
+
+.slick-slide img {
+    margin: auto;
+    width: 100%;
+    height: 1340px;
+
+}
+
+.imgsSlider {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#first {
+    position: absolute;
+    top: 20%;
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-family: "Josefin Sans", Arial, "sans-serif";
+    margin-left: 1200px;
+}
+
+#first span {
+    font-size: 66px;
+}
+
+#secText {
+    position: absolute;
+    top: 20%;
+    color: black;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-family: "Josefin Sans", Arial, "sans-serif";
+}
+
+#architectInterior {
+    position: absolute;
+    top: 26%;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: Hind, Arial, "sans-serif";
+    margin-left: 1050px;
+}
+
+.types {
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+.types h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    font-family: "Open Sans";
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+.types p {
+    margin-top: 10px;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    color: rgb(89, 89, 89);
+    font-family: Muli, Arial, "sans-serif", sans-serif;
+    line-height: 30px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.architecture {
+    margin: 20px;
+    width: 500px;
+}
+
+.interiors {
+    margin: 20px;
+    width: 550px;
+}
+
+.productDesign {
+    margin: 20px;
+    width: 600px;
+}
+
+
+.award {
+    display: flex;
+    margin-top: 100px;
+    height: 900px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.award video {
+    width: 100%;
+    height: 900px;
+}
+
+.saadBashir {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.saad {
+    width: 1400px;
+}
+
+.saad h1 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    letter-spacing: 10px;
+    padding-left: 28px;
+    line-height: 60px;
+}
+
+.coreValues {
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+.coreValues h6 {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Hind, Arial, "sans-serif";
+    color: black;
+}
+
+.coreValues p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Muli, Arial, "sans-serif", sans-serif;
+    color: rgb(89, 89, 89);
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.ourValues {
+    display: inline-block;
+    width: 20%;
+}
+
+.ourMission {
+    display: inline-block;
+    width: 20%;
+    margin-left: 30px;
+}
+
+.ourSkills {
+    display: inline-block;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.homeContact {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+    margin-top: 50px;
+}
+
+.interest h5 {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 30.6px;
+    font-family: Hind, Arial, "sans-serif";
+}
+
+.connect {
+    margin-top: 40px;
+}
+
+.connect a {
+    text-decoration: none;
+    color: rgb(60, 79, 141);
+    font-size: 14px;
+    font-family: Muli, Arial, "sans-serif";
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: normal;
+}
+
+.connect a:hover {
+    color: lightgrey;
+}
+
+
+
+svg {
+    height: 50px;
+}
+
+footer {
+    background-color: white;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+#facebook svg {
+    width: 28px;
+    display: inline;
+    margin-left: -30px;
+    margin-top: 120px;
+}
+
+#insta svg {
+    margin-left: 10px;
+    width: 18px;
+    display: inline;
+    margin-top: 120px;
+}
+
+
+#linkedin svg {
+    width: 18px;
+    margin-left: 20px;
+    display: inline;
+    margin-top: 120px;
+}
+
+
+footer {
+    height: 300px;
+    margin-top: 30px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 40px;
+}
+
+.whatsapp_btn {
+    width: 40px;
+    margin-left: 20px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking-image {
+    animation: blink 3s infinite;
+}
+
+/* This is for mobile */
+@media (max-width:576px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .logo h1 a{
+        font-size: 14px;
+    }
+    #navbar ul li:nth-child(7) {
+        display: none;
+    }
+    #navbar ul li:nth-child(8) {
+        display: block;
+    }
+
+    #navLinks {
+        display: none;
+    }
+
+
+    #navLinks {
+        position: fixed;
+        background-color: white;
+        z-index: 1;
+        margin-top: 10px;
+        width: 100%;
+        left: 0px;
+        height: 36vh;
+        text-align: center;
+    }
+
+    #navbar ul li:nth-child(8) #navLinks a {
+        display: block;
+        margin-top: 15px;
+        color: grey;
+        text-decoration: none;
+        font-family: "Hind";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin-left: 20px;
+    }
+    #navbar ul li:nth-child(8) #navLinks a:nth-child(3){
+        display: inline-block;
+    }
+    #navbar ul li a {
+        display: none;
+
+    }
+
+    #navbar-container nav {
+        position: fixed;
+        z-index: 4;
+        width: 100%;
+    }
+
+    #sideBarContainer {
+        display: none;
+    }
+
+    .slick-slide img {
+        box-sizing: border-box;
+        height: 200px;
+        width: 100%;
+        margin-top: 51px;
+    }
+
+    #first {
+        position: absolute;
+        top: 40%;
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 10px;
+        font-family: "Josefin Sans", Arial, "sans-serif";
+        margin-left: 98px;
+    }
+
+    #first span {
+        font-size: 13px;
+    }
+
+    #architectInterior {
+        font-size: 10px;
+        top: 47%;
+        margin-left: 80px;
+    }
+
+    .types {
+        margin-left: -10px;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .types h1 {
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    .types p {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .award {
+        width: 100%;
+        margin-top: -300px;
+
+    }
+
+    .award video {
+        width: 300px;
+        height: 200px;
+    }
+
+    .saadBashir {
+        width: 100%;
+        margin-top: -300px;
+    }
+
+    .saad {
+        width: 100%;
+    }
+
+    .saad h1 {
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        letter-spacing: 7px;
+        line-height: 30px;
+    }
+
+    .coreValues {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .coreValues h6 {
+        font-size: 13.4px;
+    }
+
+    .coreValues p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        color: rgb(89, 89, 89);
+        margin-top: 10px;
+        line-height: 20px;
+    }
+
+    .ourValues {
+        display: block;
+        width: 80%;
+        margin-left: -45px;
+        margin-top: 10px;
+    }
+
+    .ourMission {
+        display: block;
+        width: 80%;
+        margin-left: -45px;
+        margin-top: 20px;
+    }
+
+    .ourSkills {
+        display: block;
+        width: 80%;
+        margin-left: -45px;
+        margin-top: 20px;
+    }
+
+    .homeContact {
+        width: 100%;
+        height: 237.547px;
+    }
+
+    .interest h5 {
+        font-size: 11.9px;
+        font-weight: 300;
+        text-align: center;
+        margin-left: 3px;
+    }
+
+    .connect a {
+        margin-left: -6px;
+    }
+
+    .whatsapp_btn {
+        width: 10%;
+    }
+}
+
+/* This is for tablet */
+@media (min-width : 577px) and (max-width : 992px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .logo h1 a{
+        font-size: 14px;
+    }
+    #navbar ul li:nth-child(7) {
+        display: none;
+    }
+    #navbar ul li:nth-child(8) {
+        display: block;
+    }
+
+    #navLinks {
+        display: none;
+    }
+
+
+    #navLinks {
+        position: fixed;
+        background-color: white;
+        z-index: 1;
+        margin-top: 10px;
+        width: 100%;
+        left: 0px;
+        height: 500px;
+        text-align: center;
+    }
+
+    #navbar ul li:nth-child(8) #navLinks a {
+        display: block;
+        margin-top: 15px;
+        color: rgb(197, 197, 197);
+        text-decoration: none;
+        font-family: "Hind";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin-left: 20px;
+    }
+
+    #navbar ul li a {
+        display: none;
+
+    }
+
+    #navbar ul li:nth-child(6) {
+        display: none;
+    }
+
+    #navbar ul li:nth-child(7) {
+        display: none;
+    }
+
+    #navbar-container nav {
+        position: fixed;
+        z-index: 4;
+        width: 100%;
+    }
+
+    #sideBarContainer {
+        display: none;
+    }
+
+    .slick-slide img {
+        box-sizing: border-box;
+        height: 400px;
+        width: 100%;
+        margin-top: 46px;
+    }
+
+    #first {
+        position: absolute;
+        top: 40%;
+        color: white;
+        font-size: 23px;
+        font-weight: 700;
+        letter-spacing: 10px;
+        font-family: "Josefin Sans", Arial, "sans-serif";
+        margin-left: 38.5%;
+    }
+
+    #first span {
+        font-size: 16px;
+    }
+
+    #architectInterior {
+        font-size: 20px;
+        top: 47%;
+        margin-left: 32%;
+    }
+
+    .types {
+        margin-left: auto;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .types p {
+        font-size: 12px;
+    }
+
+    .award {
+        width: 100%;
+        margin-top: -200px;
+    }
+
+    .award video {
+        width: 100%;
+        height: 500px;
+    }
+
+    .saadBashir {
+        width: 100%;
+        margin-top: -200px;
+    }
+
+    .saad {
+        margin-left: 5px;
+    }
+
+    .saad h1 {
+        font-size: 22px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        letter-spacing: 10px;
+        line-height: 40px;
+    }
+
+    .coreValues {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .coreValues p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        color: rgb(89, 89, 89);
+        margin-top: 20px;
+        line-height: 25px;
+    }
+
+    .ourValues {
+        display: block;
+        width: 80%;
+        margin-left: -127px;
+        margin-top: 10px;
+    }
+
+    .ourMission {
+        display: block;
+        width: 80%;
+        margin-left: -127px;
+        margin-top: 10px;
+    }
+
+    .ourSkills {
+        display: block;
+        width: 80%;
+        margin-left: -127px;
+        margin-top: 10px;
+    }
+
+
+    .homeContact {
+        width: 100%;
+        height: 237.547px;
+    }
+
+    .interest h5 {
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    .connect a {
+        margin-right: 30px;
+    }
+
+    .whatsapp_btn {
+        width: 15;
+    }
+
+}
+
+/* This is the code for laptop */
+@media (min-width: 993px) and (max-width: 1632px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    .logo h1 a{
+        font-size: 16px;
+    }
+    #navbar-container nav {
+        position: fixed;
+        z-index: 4;
+        width: 100%;
+    }
+    #navbar ul li{
+        margin-right: -40px;
+        margin-left: 32px;
+    }
+    #navbar ul li:nth-child(8) {
+        display: none;
+    }
+
+    #navLinks {
+        display: none;
+    }
+
+
+    #navLinks {
+        position: fixed;
+        background-color: white;
+        z-index: 1;
+        margin-top: 10px;
+        width: 100%;
+        left: 0px;
+        height: 400px;
+        text-align: center;
+    }
+
+    #navbar ul li:nth-child(8) #navLinks a {
+        display: block;
+        margin-top: 15px;
+        color: rgb(197, 197, 197);
+        text-decoration: none;
+        font-family: "Hind";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin-left: 20px;
+    }
+
+    #navbar ul li a {
+        display: block;
+
+    }
+
+    #navbar ul li:nth-child(6) {
+        display: block;
+        margin-top: -3px;
+    }
+
+    #navbar ul li:nth-child(7) {
+        display: block;
+        margin-top: -3px;
+    }
+    #navbar ul {
+        float: right;
+        margin-top: 5px;
+        margin-right: 40px;
+    }
+    
+    #navbar li {
+        float: left;
+        list-style: none;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    #navbar li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: "Hind";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding-right: 0px;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    #menuLinks {
+        width: 270px;
+        height: 390px;
+        visibility: hidden;
+        position: fixed;
+        margin-left: -140px;;
+        top: 5%;
+        text-decoration: none;
+        background-color: black;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    }
+
+    #menuLinks li {
+        list-style: none;
+        margin-top: 15px;
+    }
+
+    #menuLinks li a {
+        text-decoration: none;
+        color: gray;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "Arial";
+        padding-left: 20px;
+        letter-spacing: 1px;
+    }
+
+    #menuLinks.show {
+        opacity: 1;
+        visibility: visible;
+        transition-delay: 0s;
+    }
+   
+
+   
+
+    #sideBarContainer {
+        display: none;
+        right: 0;
+        width: 390px;
+        height: 100vh;
+        opacity: 0;
+        transition: opacity 4s ease, visibility 4s linear 4s;
+        top: 0px;
+    }
+
+    .slick-slide img {
+        box-sizing: border-box;
+        height: 665px;
+        width: 100%;
+        margin-top: 46px;
+    }
+
+    #first {
+        position: absolute;
+        top: 35%;
+        color: white;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 7px;
+        font-family: "Josefin Sans", Arial, "sans-serif";
+        margin-left: 42%;
+    }
+
+    #first span {
+        font-size: 27px;
+    }
+
+    #architectInterior {
+        font-size: 23px;
+        top: 41%;
+        margin-left: 35%;
+    }
+
+    .types {
+        margin-left: -1%;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .types h1 {
+        font-size: 14px;
+    }
+
+    .types p {
+        font-size: 14px;
+        color: grey;
+    }
+
+    .architecture {
+        width: 30%;
+    }
+
+    .interiors {
+        width: 30%;
+        margin-left: -10px;
+    }
+
+    .productDesign {
+        width: 30%;
+        margin-left: -10px;
+    }
+
+    .award {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .award video {
+        width: 100%;
+        height: 500px;
+    }
+
+    .saadBashir {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .saad {
+        width: 68%;
+        margin-left: 30px;
+    }
+
+    .saad h1 {
+        font-size: 25px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        color: black;
+        letter-spacing: 10px;
+        line-height: 40px;
+    }
+
+    .coreValues {
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 20%;
+    }
+
+    .coreValues h6 {
+        font-size: 17px;
+        font-weight: bold;
+        font-family: Hind, Arial, "sans-serif";
+        color: black;
+    }
+
+    .coreValues h6 {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .coreValues p {
+        font-size: 13px;
+        font-weight: 400;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        color: rgb(89, 89, 89);
+        margin-top: 20px;
+        line-height: 23px;
+        color: grey;
+    }
+
+    .ourValues {
+        display: inline-block;
+        width: 22.7%;
+        margin-left: -120px;
+    }
+
+    .ourMission {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 25%;
+        margin-left: 60px;
+    }
+
+    .ourSkills {
+        display: inline-block;
+        width: 22.7%;
+        margin-left: 50px;
+    }
+
+
+
+    .homeContact {
+        width: 100%;
+        height: 237.547px;
+        margin-top: 120px;
+    }
+
+    .interest h5 {
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    .connect a {
+        margin-right: 30px;
+    }
+
+    .whatsapp_btn {
+        width: 25px;
+    }
+
+}

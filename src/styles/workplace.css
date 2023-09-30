@@ -1,0 +1,627 @@
+.mainEduPage {
+    width: 100%;
+}
+
+.websiteHeading8 {
+    width: 100%;
+    padding-top: 15px;
+    height: 65px;
+}
+
+.websiteHeading8 hr {
+    margin-top: 15px;
+    color: lightgrey;
+}
+
+.websiteHeading8 h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+
+}
+
+.expertiseEducation {
+    width: 100%;
+    height: 65px;
+    padding-top: 15px;
+}
+
+.expertiseEducation h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+}
+
+.expertiseEducation h1 span {
+    color: rgb(153, 153, 153);
+}
+
+.eduImage {
+    width: 100%;
+}
+
+.eduImage img {
+    width: 100%;
+    height: 1000px;
+}
+
+.aboutEducation {
+    width: 1000px;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.aboutEducation h1 {
+    height: 70px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+.aboutEducation p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "open sans", sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.community8 {
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 440px;
+}
+
+.community8 h1:nth-child(1) {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "open sans", sans-serif;
+    width: 850px;
+}
+
+.community8 p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Benton Sans Book", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+#more18 {
+    display: none;
+}
+
+#less18 {
+    display: none;
+}
+
+.community8 img:nth-child(6) {
+    width: 1945px;
+    height: 1050px;
+    margin-top: 70px;
+}
+
+.community8 h1:nth-child(7) {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1600px;
+    margin-top: 30px;
+    letter-spacing: 6px;
+    line-height: 45px;
+}
+
+.community8 p:nth-child(8) {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.community8 img:nth-child(9) {
+    display: inline-block;
+    width: 960px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.community8 img:nth-child(10) {
+    display: inline-block;
+    width: 960px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 22px;
+}
+
+
+
+@media (max-width : 576px) {
+    .mainHospitalPage {
+        width: 100%;
+    }
+
+    .websiteHeading8 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading8 h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseEducation {
+        width: 100%;
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .expertiseEducation h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseEducation h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .eduImage {
+        width: 100%;
+    }
+
+    .eduImage img {
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .aboutEducation {
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .aboutEducation h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutEducation p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutEducation p span {
+        display: none;
+    }
+
+    .community8 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .community8 h1:nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .community8 p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 350px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+    }
+
+    .community8 p span {
+        display: none;
+    }
+
+    #more18 {
+        display: block;
+        margin-left: 10px;
+        margin-top: -10px;
+        font-family: "Benton Sans Book", sans-serif;;
+        color: grey;
+        font-size: 13px;
+    }
+
+    #less18 {
+        margin-left: 10px;
+        margin-top: 0px;
+        font-family: "Benton Sans Book", sans-serif;;
+        color: grey;
+        font-size: 13px;
+
+    }
+
+    .community8 img:nth-child(6) {
+        width: 100%;
+        height: 200px;
+        margin-top: 70px;
+    }
+
+    .community8 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+
+    .community8 p:nth-child(8) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community8 img:nth-child(9) {
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .community8 img:nth-child(10) {
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width : 577px) and (max-width : 992px) {
+    .mainHospitalPage {
+        width: 100%;
+    }
+
+    .websiteHeading8 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading8 h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseEducation {
+        width: 100%;
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .expertiseEducation h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseEducation h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .eduImage {
+        width: 100%;
+    }
+
+    .eduImage img {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+    }
+
+    .aboutEducation {
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .aboutEducation h1 {
+        height: 70px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutEducation p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutEducation p span {
+        display: none;
+    }
+
+    .community8 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .community8 h1:nth-child(1) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .community8 p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 350px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .community8 p span {
+        display: none;
+    }
+
+    #more18 {
+        display: block;
+        margin-left: 10px;
+        margin-top: -14px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    #less18 {
+        margin-left: 10px;
+        margin-top: -3px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .community8 img:nth-child(6) {
+        width: 100%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    .community8 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .community8 p:nth-child(8) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community8 img:nth-child(9) {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .community8 img:nth-child(10) {
+        display: inline-block;
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1632px) {
+    .mainEduPage {
+        width: 100%;
+    }
+
+    .websiteHeading8 {
+        width: 100%;
+        padding-top: 60px;
+        height: 65px;
+    }
+
+    .websiteHeading8 hr {
+        margin-top: 15px;
+        color: lightgrey;
+    }
+
+    .websiteHeading8 h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+
+    }
+
+    .expertiseEducation {
+        width: 100%;
+        height: 65px;
+        padding-top: 45px;
+    }
+
+    .expertiseEducation h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseEducation h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .eduImage {
+        width: 100%;
+    }
+
+    .eduImage img {
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .aboutEducation {
+        width: 800px;
+        margin-left: 330px;
+        margin-top: 100px;
+    }
+
+    .aboutEducation h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutEducation p {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .community8 {
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 200px;
+    }
+
+    .community8 h1:nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 850px;
+    }
+
+    .community8 p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 800px;
+        line-height: 25px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    #more18 {
+        display: none;
+    }
+
+    #less18 {
+        display: none;
+    }
+
+    .community8 img:nth-child(6) {
+        width: 1000px;
+        height: 600px;
+        margin-top: 70px;
+    }
+
+    .community8 h1:nth-child(7) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        margin-top: 30px;
+        letter-spacing: 6px;
+        line-height: 24px;
+    }
+
+    .community8 p:nth-child(8) {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community8 img:nth-child(9) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .community8 img:nth-child(10) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+}

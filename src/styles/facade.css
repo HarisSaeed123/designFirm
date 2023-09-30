@@ -1,0 +1,808 @@
+.mainFacadePage {
+    width: 100%;
+}
+
+.websiteHeading5 {
+    width: 100%;
+    padding-top: 15px;
+    height: 65px;
+}
+
+.websiteHeading5 hr {
+    margin-top: 15px;
+    color: lightgrey;
+}
+
+.websiteHeading5 h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+
+}
+
+.expertiseFacade {
+    width: 100%;
+    height: 65px;
+    padding-top: 15px;
+}
+
+.expertiseFacade h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+}
+
+.expertiseFacade h1 span {
+    color: rgb(153, 153, 153);
+}
+
+.facadeImage {
+    width: 100%;
+}
+
+.facadeImage img {
+    width: 100%;
+    height: 1000px;
+}
+
+.aboutFacadeDesign {
+    width: 1000px;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.aboutFacadeDesign h1 {
+    height: 70px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+.aboutFacadeDesign p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "open sans", sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+#more12 {
+    display: none;
+}
+
+#less12 {
+    display: none;
+}
+
+.community5 {
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 440px;
+}
+
+.community5 h1:nth-child(1) {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "open sans", sans-serif;
+    width: 850px;
+}
+
+.community5 p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Benton Sans Book", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+#more13 {
+    display: none;
+}
+
+#less13 {
+    display: none;
+}
+
+.community5 img:nth-child(6) {
+    width: 1945px;
+    height: 1050px;
+    margin-top: 70px;
+}
+
+.community5 h1:nth-child(7) {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1600px;
+    margin-top: 30px;
+    letter-spacing: 6px;
+    line-height: 45px;
+}
+
+.community5 p:nth-child(8) {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.community5 img:nth-child(9) {
+    display: inline-block;
+    width: 960px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.community5 img:nth-child(10) {
+    display: inline-block;
+    width: 960px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 22px;
+}
+
+.ads1 {
+    width: 100%;
+    margin-left: 440px;
+    margin-top: 50px;
+}
+
+.ads1 div:nth-child(1) {
+    display: inline-block;
+}
+
+.ads1 div:nth-child(1) img {
+    width: 960px;
+    height: 1100px;
+}
+
+.ads1 div:nth-child(2) {
+    display: inline-block;
+}
+
+.ads1 div:nth-child(2) img {
+    width: 960px;
+    height: 1100px;
+    margin-left: 22px;
+}
+
+.ads1 p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 5px;
+    color: rgb(128, 128, 128);
+}
+
+
+
+@media (max-width : 576px) {
+    .mainFacadePage {
+        width: 100%;
+    }
+
+    .websiteHeading5 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading5 h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseFacade {
+        width: 100%;
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .expertiseFacade h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseFacade h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .facadeImage {
+        width: 100%;
+    }
+
+    .facadeImage img {
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .aboutFacadeDesign {
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .aboutFacadeDesign h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutFacadeDesign p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutFacadeDesign p span {
+        display: none;
+    }
+
+    #more12 {
+        display: block;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+        margin-top: 4px;
+    }
+    #less12{
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .community5 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .community5 h1:nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .community5 p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 350px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+    }
+
+    .community5 p span {
+        display: none;
+    }
+
+    #more13 {
+        display: block;
+        margin-left: 10px;
+        margin-top: -10px;
+        font-family: "Benton Sans Book", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    #less13 {
+        margin-left: 10px;
+        margin-top: 0px;
+        font-family: "Benton Sans Book", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .community5 img:nth-child(6) {
+        width: 100%;
+        height: 200px;
+        margin-top: 70px;
+    }
+
+    .community5 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+
+    .community5 p:nth-child(8) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community5 img:nth-child(9) {
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .community5 img:nth-child(10) {
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .ads1 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .ads1 div:nth-child(1) {
+        display: block;
+    }
+    
+    .ads1 div:nth-child(1) img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .ads1 div:nth-child(2) {
+        display: block;
+    }
+    
+    .ads1 div:nth-child(2) img {
+        width: 100%;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .ads1 p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 5px;
+        color: rgb(128, 128, 128);
+    }
+}
+
+@media (min-width : 577px) and (max-width : 992px) {
+    .mainFacadePage {
+        width: 100%;
+    }
+
+    .websiteHeading5 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading5 h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseFacade {
+        width: 100%;
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .expertiseFacade h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseFacade h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .facadeImage {
+        width: 100%;
+    }
+
+    .facadeImage img {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+    }
+
+    .aboutFacadeDesign {
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .aboutFacadeDesign h1 {
+        height: 70px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutFacadeDesign p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutFacadeDesign p span {
+        display: none;
+    }
+
+    #more12 {
+        display: block;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    #less12 {
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .community5 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .community5 h1:nth-child(1) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .community5 p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 350px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .community5 p span {
+        display: none;
+    }
+
+    #more13 {
+        display: block;
+        margin-left: 10px;
+        margin-top: -10px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    #less13 {
+        margin-left: 10px;
+        margin-top: 0px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .community5 img:nth-child(6) {
+        width: 100%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    .community5 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .community5 p:nth-child(8) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community5 img:nth-child(9) {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .community5 img:nth-child(10) {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .ads1 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .ads1 div:nth-child(1) {
+        display: block;
+    }
+    
+    .ads1 div:nth-child(1) img {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .ads1 div:nth-child(2) {
+        display: block;
+    }
+    
+    .ads1 div:nth-child(2) img {
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .ads1 p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 5px;
+        color: rgb(128, 128, 128);
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1632px) {
+    .mainFacadePage {
+        width: 100%;
+    }
+
+    .websiteHeading5 {
+        width: 100%;
+        padding-top: 60px;
+        height: 65px;
+    }
+
+    .websiteHeading5 hr {
+        margin-top: 15px;
+        color: lightgrey;
+    }
+
+    .websiteHeading5 h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+
+    }
+
+    .expertiseFacade {
+        width: 100%;
+        height: 65px;
+        padding-top: 45px;
+    }
+
+    .expertiseFacade h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseFacade h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .facadeImage {
+        width: 100%;
+    }
+
+    .facadeImage img {
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .aboutFacadeDesign {
+        width: 800px;
+        margin-left: 330px;
+        margin-top: 100px;
+    }
+
+    .aboutFacadeDesign h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutFacadeDesign p {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    #more12 {
+        display: none;
+    }
+
+    #less12 {
+        display: none;
+    }
+
+    .community5 {
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 200px;
+    }
+
+    .community5 h1:nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 850px;
+    }
+
+    .community5 p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 800px;
+        line-height: 25px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    #more13 {
+        display: none;
+    }
+
+    #less13 {
+        display: none;
+    }
+
+    .community5 img:nth-child(6) {
+        width: 1000px;
+        height: 600px;
+        margin-top: 40px;
+    }
+
+    .community5 h1:nth-child(7) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        margin-top: 30px;
+        letter-spacing: 6px;
+        line-height: 24px;
+    }
+
+    .community5 p:nth-child(8) {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community5 img:nth-child(9) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .community5 img:nth-child(10) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
+    .ads1 {
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+
+    .ads1 div:nth-child(1) {
+        display: inline-block;
+    }
+
+    .ads1 div:nth-child(1) img {
+        width: 480px;
+        height: 300px;
+    }
+
+    .ads1 div:nth-child(2) {
+        display: inline-block;
+    }
+
+    .ads1 div:nth-child(2) img {
+        width: 480px;
+        height: 300px;
+        margin-left: 30px;
+    }
+
+    .ads1 p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 5px;
+        color: rgb(128, 128, 128);
+    }
+
+}

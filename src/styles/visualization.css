@@ -1,0 +1,854 @@
+.mainVisualPage {
+    width: 100%;
+}
+
+.websiteHeading6 {
+    width: 100%;
+    padding-top: 15px;
+    height: 65px;
+}
+
+.websiteHeading6 hr {
+    margin-top: 15px;
+    color: lightgrey;
+}
+
+.websiteHeading6 h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+
+}
+
+.expertiseVisual {
+    width: 100%;
+    height: 65px;
+    padding-top: 15px;
+}
+
+.expertiseVisual h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+}
+
+.expertiseVisual h1 span {
+    color: rgb(153, 153, 153);
+}
+
+.visualImage {
+    width: 100%;
+}
+
+.visualImage video {
+    width: 100%;
+    height: 900px;
+}
+
+.aboutVisualization {
+    width: 1000px;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.aboutVisualization h1 {
+    border-bottom: 1px solid lightgrey;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+.aboutVisualization p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "open sans", sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+#more14 {
+    display: none;
+}
+
+#less14 {
+    display: none;
+}
+
+.community6 {
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 440px;
+}
+
+.community6 h1:nth-child(1) {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "open sans", sans-serif;
+    width: 850px;
+}
+
+.community6 p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Benton Sans Book", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+#more15 {
+    display: none;
+}
+
+#less15 {
+    display: none;
+}
+
+.imgsSlider2 {
+    width: 1945px;
+    margin-top: 40px;
+    margin-left: 1px;
+}
+
+.imgsSlider2 img {
+    height: 1000px;
+}
+
+.community6 h1:nth-child(7) {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1600px;
+    margin-top: 45px;
+    letter-spacing: 6px;
+    line-height: 45px;
+}
+
+.community6 p:nth-child(8) {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.community6 img:nth-child(9) {
+    display: inline-block;
+    width: 960px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.community6 img:nth-child(10) {
+    display: inline-block;
+    width: 960px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 22px;
+}
+
+
+
+@media (max-width : 576px) {
+    .mainVisualPage {
+        width: 100%;
+    }
+
+    .websiteHeading6 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading6 h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseVisual {
+        width: 100%;
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .expertiseVisual h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseVisual h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .visualImage {
+        width: 100%;
+    }
+
+    .visualImage video {
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .aboutVisualization {
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .aboutVisualization h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutVisualization p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutVisualization p span {
+        display: none;
+    }
+
+    #more14 {
+        display: block;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+        margin-top: 5px;
+    }
+    #less14{
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+        margin-top: 5px;
+    }
+
+    .community6 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .community6 h1:nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .community6 p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 350px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+    }
+
+    .community6 p span {
+        display: none;
+    }
+
+    #more15 {
+        display: block;
+        margin-left: 10px;
+        margin-top: -10px;
+        font-family: "Benton Sans Book", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    #less15 {
+        margin-left: 10px;
+        margin-top: 0px;
+        font-family: "Benton Sans Book", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .imgsSlider2 {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 1px;
+    }
+
+    .imgsSlider2 img {
+        height: 200px;
+    }
+
+    .community6 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+
+    .community6 p:nth-child(8) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community6 img:nth-child(9) {
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .community6 img:nth-child(10) {
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width : 577px) and (max-width : 992px) {
+    .mainVisualPage {
+        width: 100%;
+    }
+
+    .websiteHeading6 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading6 h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseVisual {
+        width: 100%;
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .expertiseVisual h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseVisual h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .visualImage {
+        width: 100%;
+    }
+
+    .visualImage video {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+    }
+
+    .aboutVisualization {
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .aboutVisualization h1 {
+        height: 70px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutVisualization p {
+        font-size: 13px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutVisualization p span {
+        display: none;
+    }
+
+    #more14 {
+        display: block;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+        margin-top: 5px;
+    }
+
+    #less14 {
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+        margin-top: 5px;
+    }
+
+    .community6 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .community6 h1:nth-child(1) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .community6 p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 350px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .community6 p span {
+        display: none;
+    }
+
+    #more15 {
+        display: block;
+        margin-left: 10px;
+        margin-top: -10px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    #less15 {
+        margin-left: 10px;
+        margin-top: 0px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .imgsSlider2 {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    .imgsSlider2 img {
+        height: 400px;
+    }
+
+    .community6 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .community6 p:nth-child(8) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community6 img:nth-child(9) {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .community6 img:nth-child(10) {
+        display: inline-block;
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1632px) {
+    .mainVisualPage {
+        width: 100%;
+    }
+
+    .websiteHeading6 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading6 hr {
+        margin-top: 15px;
+        color: lightgrey;
+    }
+
+    .websiteHeading6 h1 {
+        margin-left: 100px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+
+    }
+
+    .expertiseVisual {
+        width: 100%;
+        height: 65px;
+        padding-top: 40px;
+    }
+
+    .expertiseVisual h1 {
+        margin-left: 100px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseVisual h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .visualImage {
+        width: 100%;
+    }
+
+    .visualImage video {
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .aboutVisualization {
+        width: 800px;
+        margin-left: 330px;
+        margin-top: 100px;
+    }
+
+    .aboutVisualization h1 {
+        border-bottom: 1px solid lightgrey;
+        height: 70px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutVisualization p {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    #more14 {
+        display: none;
+       
+    }
+
+    #less14 {
+        display: none;
+    }
+
+    .community6 {
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 200px;
+    }
+
+    .community6 h1:nth-child(1) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 850px;
+    }
+
+    .community6 p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 800px;
+        line-height: 25px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    #more15 {
+        display: none;
+    }
+
+    #less15 {
+        display: none;
+    }
+
+    .imgsSlider2 {
+        width: 1000px;
+        margin-top: 40px;
+        margin-left: 1px;
+    }
+
+    .imgsSlider2 img {
+        height: 600px;
+    }
+
+    .community6 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        margin-top: 45px;
+        letter-spacing: 6px;
+        line-height: 25px;
+    }
+
+    .community6 p:nth-child(8) {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community6 img:nth-child(9) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 40px;
+    }
+
+    .community6 img:nth-child(10) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1632px) {
+    .mainVisualPage {
+        width: 100%;
+    }
+
+    .websiteHeading6 {
+        width: 100%;
+        padding-top: 60px;
+        height: 65px;
+    }
+
+    .websiteHeading6 hr {
+        margin-top: 15px;
+        color: lightgrey;
+    }
+
+    .websiteHeading6 h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+
+    }
+
+    .expertiseVisual {
+        width: 100%;
+        height: 65px;
+        padding-top: 45px;
+    }
+
+    .expertiseVisual h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseVisual h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .visualImage {
+        width: 100%;
+    }
+
+    .visualImage video {
+        width: 100%;
+        height: 600px;
+        margin-top: 30px;
+    }
+
+    .aboutVisualization {
+        width: 800px;
+        margin-left: 330px;
+        margin-top: 100px;
+    }
+
+    .aboutVisualization h1 {
+        border-bottom: 1px solid lightgrey;
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutVisualization p {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    #more14 {
+        display: none;
+    }
+
+    #less14 {
+        display: none;
+    }
+
+    .community6 {
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 200px;
+    }
+
+    .community6 h1:nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 850px;
+    }
+
+    .community6 p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 800px;
+        line-height: 25px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    #more15 {
+        display: none;
+    }
+
+    #less15 {
+        display: none;
+    }
+
+    .imgsSlider2 {
+        width: 1000px;
+        margin-top: 40px;
+        margin-left: 1px;
+    }
+
+    .imgsSlider2 img {
+        height: 600px;
+    }
+
+    .community6 h1:nth-child(7) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        margin-top: 45px;
+        letter-spacing: 6px;
+        line-height: 24px;
+    }
+
+    .community6 p:nth-child(8) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community6 img:nth-child(9) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 25px;
+    }
+
+    .community6 img:nth-child(10) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
+}

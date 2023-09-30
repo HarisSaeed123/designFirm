@@ -1,0 +1,424 @@
+.box {
+    width: 100%;
+    border: 0.5px solid black;
+    background-image: url('../assets/111111.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    color: white;
+}
+
+.main-heading {
+    width: 100%;
+    margin-left: 700px;
+    margin-top: 110px;
+}
+
+.main-heading h2 {
+    font-size: 21px;
+    font-family: 'Hind';
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.61);
+    letter-spacing: 10px;
+}
+
+.main-heading p {
+    font-size: 34px;
+    font-family: 'Hind';
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.email {
+    margin-top: 150px;
+    width: 100%;
+    margin-left: 700px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: "Open Sans";
+    font-weight: 600;
+
+}
+
+.address {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 700px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.form {
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.form label {
+    font-size: 14px;
+    font-family: Muli, Arial, "sans-serif", sans-serif;
+    font-weight: 400;
+    color: rgb(89, 89, 89);
+}
+
+.form input {
+    width: 50%;
+    height: 70px;
+}
+
+.name input::placeholder {
+    color: red
+}
+
+.Email input::placeholder {
+    color: red;
+}
+
+.Email {
+    margin-top: 35px;
+}
+
+.subject {
+    margin-top: 35px;
+}
+
+.message {
+    margin-top: 35px;
+}
+
+.form input[type="submit"] {
+    width: 63px;
+    height: 40.5px;
+    border: 3px solid black;
+    font-size: 18px;
+    font-family: Muli, Arial, "sans-serif", sans-serif;
+    font-weight: 600;
+    color: rgb(89, 89, 89);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media (max-width : 576px) {
+    .box {
+        width: 100%;
+        border: 2px solid black;
+        height: 500px;
+    }
+
+    .main-heading {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+
+    .main-heading h2 {
+        font-size: 12px;
+        font-family: 'Hind';
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.61);
+        letter-spacing: 10px;
+    }
+
+    .main-heading p {
+        font-size: 15px;
+        font-family: 'Hind';
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+    }
+
+    .email {
+        margin-top: 185px;
+        width: 100%;
+        margin-left: 10px;
+        font-size: 12px;
+        font-style: normal;
+        font-family: "Open Sans";
+        font-weight: 600;
+
+    }
+
+    .address {
+        box-sizing: border-box;
+        margin-top: 73px;
+        width: 100%;
+        margin-left: 10px;
+        font-size: 12px;
+        font-style: normal;
+        font-family: "Open Sans";
+        font-weight: 600;
+    }
+
+    .form {
+        width: 100%;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    .form label {
+        font-size: 14px;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        font-weight: 400;
+        color: rgb(89, 89, 89);
+    }
+
+    .form input {
+        width: 75%;
+        height: 30px;
+    }
+
+    .form textarea {
+        width: 75%;
+        height: 40px;
+    }
+
+    .name input::placeholder {
+        color: red
+    }
+
+    .Email input::placeholder {
+        color: red;
+    }
+
+    .Email {
+        margin-top: 35px;
+    }
+
+    .subject {
+        margin-top: 35px;
+    }
+
+    .message {
+        margin-top: 35px;
+    }
+
+    .form input[type="submit"] {
+        width: 50px;
+        height: 30.5px;
+        border: 3px solid black;
+        font-size: 12px;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        font-weight: 600;
+        color: rgb(89, 89, 89);
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width : 577px) and (max-width : 992px) {
+    .box {
+        width: 100%;
+        border: 2px solid black;
+        height: 500px;
+    }
+
+    .main-heading {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+
+    .main-heading h2 {
+        font-size: 12px;
+        font-family: 'Hind';
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.61);
+        letter-spacing: 10px;
+    }
+
+    .main-heading p {
+        font-size: 15px;
+        font-family: 'Hind';
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        margin-top: 30px;
+    }
+
+    .email {
+        margin-top: 60px;
+        width: 100%;
+        margin-left: 10px;
+        font-size: 12px;
+        font-style: normal;
+        font-family: "Open Sans";
+        font-weight: 600;
+
+    }
+
+    .address {
+        margin-top: 70px;
+        width: 100%;
+        margin-left: 10px;
+        font-size: 12px;
+        font-style: normal;
+        font-family: "Open Sans";
+        font-weight: 600;
+    }
+
+    .form {
+        width: 100%;
+        margin-top: 190px;
+        margin-left: 20px;
+    }
+
+    .form label {
+        font-size: 14px;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        font-weight: 400;
+        color: rgb(89, 89, 89);
+    }
+
+    .form input {
+        width: 90%;
+        height: 30px;
+    }
+
+    .form textarea {
+        width: 90%;
+        height: 100px;
+    }
+
+    .name input::placeholder {
+        color: red
+    }
+
+    .Email input::placeholder {
+        color: red;
+    }
+
+    .Email {
+        margin-top: 35px;
+    }
+
+    .subject {
+        margin-top: 35px;
+    }
+
+    .message {
+        margin-top: 35px;
+    }
+
+    .form input[type="submit"] {
+        width: 50px;
+        height: 30.5px;
+        border: 3px solid black;
+        font-size: 12px;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        font-weight: 600;
+        color: rgb(89, 89, 89);
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1632px) {
+    .box {
+        width: 100%;
+        border: 0.5px solid black;
+        background-image: url('../assets/111111.jpg');
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: 100% 600px;
+        color: white;
+    }
+
+    .main-heading {
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 110px;
+    }
+
+    .main-heading h2 {
+        font-size: 17px;
+        font-family: 'Hind';
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.61);
+        letter-spacing: 10px;
+    }
+
+    .main-heading p {
+        font-size: 25px;
+        font-family: 'Hind';
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+    }
+
+    .email {
+        margin-top: 150px;
+        width: 100%;
+        margin-left: 200px;
+        font-size: 15px;
+        font-style: normal;
+        font-family: "Open Sans";
+        font-weight: 400;
+
+    }
+
+    .address {
+        margin-top: 70px;
+        width: 100%;
+        margin-left: 200px;
+        font-size: 15px;
+        font-style: normal;
+        font-family: "Open Sans";
+        font-weight: 400;
+    }
+
+    .form {
+        width: 100%;
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+
+    .form label {
+        font-size: 14px;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        font-weight: 400;
+        color: rgb(89, 89, 89);
+    }
+
+    .form input {
+        width: 50%;
+        height: 40px;
+    }
+    .form textarea {
+        width: 50%;
+        height: 100px;
+    }
+
+    .name input::placeholder {
+        color: red
+    }
+
+    .Email input::placeholder {
+        color: red;
+    }
+
+    .Email {
+        margin-top: 35px;
+    }
+
+    .subject {
+        margin-top: 35px;
+    }
+
+    .message {
+        margin-top: 35px;
+    }
+
+    .form input[type="submit"] {
+        width: 63px;
+        height: 40.5px;
+        border: 3px solid black;
+        font-size: 18px;
+        font-family: Muli, Arial, "sans-serif", sans-serif;
+        font-weight: 600;
+        color: rgb(89, 89, 89);
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}

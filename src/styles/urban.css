@@ -1,0 +1,664 @@
+.mainUrbanPage {
+    width: 100%;
+}
+
+.websiteHeading3 {
+    width: 100%;
+    padding-top: 15px;
+    height: 65px;
+}
+
+.websiteHeading3 hr {
+    margin-top: 15px;
+    color: lightgrey;
+}
+
+.websiteHeading3 h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+
+}
+
+.expertiseUrban {
+    width: 100%;
+    height: 65px;
+    padding-top: 15px;
+}
+
+.expertiseUrban h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+}
+
+.expertiseUrban h1 span {
+    color: rgb(153, 153, 153);
+}
+
+.urbanImage {
+    width: 100%;
+}
+
+.urbanImage img {
+    width: 100%;
+    height: 1000px;
+}
+
+.aboutUrban {
+    width: 1000px;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.aboutUrban h1 {
+    height: 70px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+.aboutUrban p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "open sans", sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+#more8 {
+    display: none;
+}
+
+#less8 {
+    display: none;
+}
+
+.community3 {
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 440px;
+}
+
+.community3 h1:nth-child(1) {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "open sans", sans-serif;
+    width: 850px;
+}
+
+.community3 p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Benton Sans Book", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+#more9 {
+    display: none;
+}
+
+#less9 {
+    display: none;
+}
+
+.community3 img:nth-child(6) {
+    width: 1945px;
+    height: 1050px;
+    margin-top: 70px;
+}
+
+.community3 h1:nth-child(7) {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1600px;
+    margin-top: 30px;
+    letter-spacing: 6px;
+    line-height: 45px;
+}
+
+.community3 p:nth-child(8) {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.community3 img:nth-child(9) {
+    display: inline-block;
+    width: 960px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.community3 img:nth-child(10) {
+    display: inline-block;
+    width: 960px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 22px;
+}
+
+
+@media (max-width : 576px) {
+    .mainUrbanPage {
+        width: 100%;
+    }
+
+    .websiteHeading3 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading3 h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseUrban {
+        width: 100%;
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .expertiseUrban h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseUrban h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .urbanImage {
+        width: 100%;
+    }
+
+    .urbanImage img {
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .aboutUrban {
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .aboutUrban h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutUrban p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutUrban p span {
+        display: none;
+    }
+
+    #more8 {
+        display: block;
+        color: grey;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    #less8{
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        margin-top: 5px;
+        color: grey;
+    }
+
+    .community3 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .community3 h1:nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .community3 p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 350px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+    }
+
+    .community3 p span {
+        display: none;
+    }
+
+    #more9 {
+        display: block;
+        margin-left: 10px;
+        margin-top: -10px;
+        color: grey;
+        font-family: "Benton Sans Book", sans-serif;
+        font-size: 13px;
+    }
+
+    #less9 {
+        margin-left: 10px;
+        margin-top: 0px;
+        color: grey;
+        font-family: "Benton Sans Book", sans-serif;
+        font-size: 13px;
+    }
+
+    .community3 img:nth-child(6) {
+        width: 100%;
+        height: 200px;
+        margin-top: 70px;
+    }
+
+    .community3 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+
+    .community3 p:nth-child(8) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community3 img:nth-child(9) {
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .community3 img:nth-child(10) {
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width : 577px) and (max-width : 992px) {
+    .mainUrbanPage {
+        width: 100%;
+    }
+
+    .websiteHeading3 {
+        width: 100%;
+        padding-top: 55px;
+        height: 65px;
+    }
+
+    .websiteHeading3 h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseUrban {
+        width: 100%;
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .expertiseUrban h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseUrban h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .urbanImage {
+        width: 100%;
+    }
+
+    .urbanImage img {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+    }
+
+    .aboutUrban {
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .aboutUrban h1 {
+        height: 70px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutUrban p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutUrban p span {
+        display: none;
+    }
+
+    #more8 {
+        display: block;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+    #less8 {
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .community3 {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .community3 h1:nth-child(1) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .community3 p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 350px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .community3 p span {
+        display: none;
+    }
+
+    #more9 {
+        display: block;
+        margin-left: 10px;
+        margin-top: -10px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    #less9 {
+        margin-left: 10px;
+        margin-top: 0px;
+        font-family: "open sans", sans-serif;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .community3 img:nth-child(6) {
+        width: 100%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    .community3 h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .community3 p:nth-child(8) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community3 img:nth-child(9) {
+        display: block;
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .community3 img:nth-child(10) {
+        display: inline-block;
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1632px){
+    .mainUrbanPage {
+        width: 100%;
+    }
+    
+    .websiteHeading3 {
+        width: 100%;
+        padding-top: 60px;
+        height: 65px;
+    }
+    
+    .websiteHeading3 hr {
+        margin-top: 15px;
+        color: lightgrey;
+    }
+    
+    .websiteHeading3 h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    
+    }
+    
+    .expertiseUrban {
+        width: 100%;
+        height: 65px;
+        padding-top: 45px;
+    }
+    
+    .expertiseUrban h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+    
+    .expertiseUrban h1 span {
+        color: rgb(153, 153, 153);
+    }
+    
+    .urbanImage {
+        width: 100%;
+    }
+    
+    .urbanImage img {
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+    }
+    
+    .aboutUrban {
+        width: 800px;
+        margin-left: 330px;
+        margin-top: 100px;
+    }
+    
+    .aboutUrban h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+    
+    .aboutUrban p {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    
+    #more8 {
+        display: none;
+    }
+    
+    #less8 {
+        display: none;
+    }
+    
+    .community3 {
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 200px;
+    }
+    
+    .community3 h1:nth-child(1) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        width: 850px;
+    }
+    
+    .community3 p {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 800px;
+        line-height: 25px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+    
+    #more9 {
+        display: none;
+    }
+    
+    #less9 {
+        display: none;
+    }
+    
+    .community3 img:nth-child(6) {
+        width: 1000px;
+        height: 600px;
+        margin-top: 40px;
+    }
+    
+    .community3 h1:nth-child(7) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        margin-top: 30px;
+        letter-spacing: 6px;
+        line-height: 24px;
+    }
+    
+    .community3 p:nth-child(8) {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+    }
+    
+    .community3 img:nth-child(9) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 25px;
+    }
+    
+    .community3 img:nth-child(10) {
+        display: inline-block;
+        width: 480px;
+        height: 300px;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+}

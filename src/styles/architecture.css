@@ -1,0 +1,736 @@
+.mainArchitectPage {
+    width: 100%;
+}
+
+.websiteHeading {
+    width: 100%;
+    padding-top: 15px;
+    height: 65px;
+}
+
+.websiteHeading hr {
+    margin-top: 15px;
+    color: lightgrey;
+}
+
+.websiteHeading h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+
+}
+
+.expertiseArchitecture {
+    width: 100%;
+    height: 65px;
+    padding-top: 15px;
+}
+
+.expertiseArchitecture h1 {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+}
+
+.expertiseArchitecture h1 span {
+    color: rgb(153, 153, 153);
+}
+
+.architectureImage {
+    width: 100%;
+}
+
+.architectureImage img {
+    width: 100%;
+    height: 1050px;
+}
+
+.aboutArchitecture {
+    width: 1000px;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.aboutArchitecture h1 {
+    height: 70px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "open sans", sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+.aboutArchitecture p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "open sans", sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+#more2 {
+    display: none;
+}
+
+#less2 {
+    display: none;
+}
+
+.community {
+    margin-top: 70px;
+    margin-left: 440px;
+    width: 100%;
+}
+
+.community h1 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "open sans", sans-serif;
+}
+
+.community h1:nth-child(7) {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1900px;
+    margin-top: 30px;
+    letter-spacing: 6px;
+    line-height: 45px;
+}
+
+.community p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Benton Sans Book", sans-serif;
+    width: 1200px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+#more3 {
+    display: none;
+}
+
+#less3 {
+    display: none;
+}
+
+.community p:nth-child(6) {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.community img {
+    width: 1945px;
+    height: 1050px;
+    margin-top: 70px;
+}
+
+.ads {
+    width: 100%;
+    margin-left: 440px;
+    margin-top: 40px;
+}
+
+.ads div {
+    display: inline-block;
+}
+
+.ads div:nth-child(1) img {
+    width: 1175px;
+    height: 1485px
+}
+
+.ads div:nth-child(2) img {
+    width: 727px;
+    height: 875px;
+    margin-left: 40px;
+    margin-bottom: 635px;
+}
+
+.ads p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    width: 1000px;
+    line-height: 28px;
+    margin-top: 5px;
+    color: rgb(128, 128, 128);
+}
+
+@media (max-width : 576px) {
+    .mainArchitectPage {
+        width: 100%;
+    }
+
+    .websiteHeading {
+        width: 100%;
+        padding-top: 54px;
+        height: 65px;
+    }
+
+    .websiteHeading h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseArchitecture {
+        width: 100%;
+        height: 65px;
+        padding-top: 32px;
+    }
+
+    .expertiseArchitecture h1 {
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        margin-left: 10px;
+    }
+
+    .expertiseArchitecture h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .architectureImage {
+        width: 100%;
+    }
+
+    .architectureImage img {
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .aboutArchitecture {
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .aboutArchitecture h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutArchitecture p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutArchitecture p span {
+        display: none;
+
+    }
+
+    #more2 {
+        display: block;
+        font-size: 13px;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        margin-top: 10px;
+    }
+
+    #less2 {
+        font-size: 12px;
+        font-family: "Benton Sans Book", sans-serif;
+        margin-top: 10px;
+        font-size: 13px;
+        font-family: "open sans", sans-serif;
+        color: grey;
+    }
+
+    .community {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .community h1 {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        margin-left: 10px;
+    }
+
+    .community h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 350px;
+        margin-top: 10px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+
+    .community p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 300px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+    }
+
+    #more3 {
+        display: block;
+        font-size: 13px;
+        font-family: "Benton Sans Book", sans-serif;
+        color: grey;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    #less3 {
+        font-size: 12px;
+        font-family: "Benton Sans Book", sans-serif;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .community p span {
+        display: none;
+    }
+
+    .community p:nth-child(6) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community img {
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .ads {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .ads div {
+        display: block;
+        height: 30vh;
+    }
+
+    .ads div:nth-child(1) img {
+        width: 100%;
+        height: 200px
+    }
+
+    .ads div:nth-child(2) img {
+        width: 100%;
+        height: 200px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .ads p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        color: rgb(128, 128, 128);
+    }
+
+}
+
+@media (min-width : 577px) and (max-width : 992px) {
+    .mainArchitectPage {
+        width: 100%;
+    }
+
+    .websiteHeading {
+        width: 100%;
+        padding-top: 52px;
+        height: 65px;
+    }
+
+    .websiteHeading h1 {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+
+    .expertiseArchitecture {
+        width: 100%;
+        height: 65px;
+        padding-top: 32px;
+    }
+
+    .expertiseArchitecture h1 {
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        margin-left: 10px;
+    }
+
+    .expertiseArchitecture h1 span {
+        color: rgb(153, 153, 153);
+    }
+
+    .architectureImage {
+        width: 100%;
+    }
+
+    .architectureImage img {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+    }
+
+    .aboutArchitecture {
+        width: 90%;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .aboutArchitecture h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+
+    .aboutArchitecture p {
+        font-size: 12px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .aboutArchitecture p span {
+        display: none;
+
+    }
+
+    #more2 {
+        display: block;
+        font-size: 13px;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        margin-top: 10px;
+    }
+
+    #less2 {
+        font-size: 13px;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        margin-top: 10px;
+    }
+
+    .community {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .community h1 {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+        margin-left: 10px;
+    }
+
+    .community h1:nth-child(7) {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 92%;
+        margin-top: 10px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+
+    .community p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Benton Sans Book", sans-serif;
+        width: 300px;
+        line-height: 28px;
+        margin-top: 0px;
+        color: rgb(128, 128, 128);
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    #more3 {
+        display: block;
+        font-size: 13px;
+        font-family: "Benton Sans Book", sans-serif;
+        color: grey;
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+
+    #less3 {
+        font-size: 13px;
+        font-family: "Benton Sans Book", sans-serif;
+        color: grey;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .community p span {
+        display: none;
+    }
+
+    .community p:nth-child(6) {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        color: rgb(128, 128, 128);
+    }
+
+    .community img {
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .ads {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .ads div {
+        display: block;
+        height: 30vh;
+    }
+
+    .ads div:nth-child(1) img {
+        width: 100%;
+        height: 400px
+    }
+
+    .ads div:nth-child(2) img {
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 150px;
+    }
+
+    .ads p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        color: rgb(128, 128, 128);
+    }
+    #foot{
+        margin-top: 200px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1632px) {
+    .mainArchitectPage {
+        width: 100%;
+    }
+    
+    .websiteHeading {
+        width: 100%;
+        padding-top: 60px;
+        height: 65px;
+    }
+    
+    .websiteHeading hr {
+        margin-top: 15px;
+        color: lightgrey;
+    }
+    
+    .websiteHeading h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    
+    }
+    
+    .expertiseArchitecture {
+        width: 100%;
+        height: 65px;
+        padding-top: 45px;
+    }
+    
+    .expertiseArchitecture h1 {
+        margin-left: 100px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+    }
+    
+    .expertiseArchitecture h1 span {
+        color: rgb(153, 153, 153);
+    }
+    
+    .architectureImage {
+        width: 100%;
+    }
+    
+    .architectureImage img {
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+    }
+    
+    .aboutArchitecture {
+        width: 800px;
+        margin-left: 350px;
+        margin-top: 100px;
+    }
+    
+    .aboutArchitecture h1 {
+        height: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        color: black;
+        margin-top: 30px;
+    }
+    
+    .aboutArchitecture p {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "open sans", sans-serif;
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    
+    #more2 {
+        display: none;
+    }
+    
+    #less2 {
+        display: none;
+    }
+    
+    .community {
+        margin-top: 70px;
+        margin-left: 200px;
+        width: 100%;
+    }
+    
+    .community h1 {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "open sans", sans-serif;
+    }
+    
+   
+    
+    .community p {
+        font-size: 14px;
+        font-weight: 500;
+        font-family: "open sans", sans-serif;
+        width: 800px;
+        line-height: 25px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+    
+    #more3 {
+        display: none;
+    }
+    
+    #less3 {
+        display: none;
+    }
+    
+    .community p:nth-child(6) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        line-height: 28px;
+        margin-top: 20px;
+        color: rgb(128, 128, 128);
+    }
+    .community h1:nth-child(7) {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        width: 1000px;
+        margin-top: 30px;
+        letter-spacing: 6px;
+        line-height: 24px;
+    }
+    
+    .community img {
+        width: 1000px;
+        height: 600px;
+        margin-top: 70px;
+    }
+    
+    .ads {
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+
+    .ads div {
+        display: block;
+        height: 30vh;
+    }
+
+    .ads div:nth-child(1) img {
+        width: 1000px;
+        height: 600px;
+    }
+
+    .ads div:nth-child(2) img {
+        width: 1000px;
+        height: 600px;
+        margin-left: 0px;
+        margin-top: 470px;
+    }
+
+    .ads p {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Josefin Sans", sans-serif;
+        color: rgb(128, 128, 128);
+    }
+    #foot{
+        margin-top: 800px;
+    }
+}

@@ -1,0 +1,927 @@
+.mainService {
+   width: 100%;
+}
+
+.serviceWebsiteHeading {
+   width: 100%;
+   height: 65px;
+}
+
+.serviceWebsiteHeading h1 {
+   margin-left: 100px;
+   padding-top: 20px;
+   font-size: 25px;
+   font-weight: 500;
+   font-family: "open sans", sans-serif;
+}
+
+.imgsSlider1 {
+   width: 93%;
+   margin-left: 100px;
+   margin-top: 10px;
+}
+
+.imgsSlider1 img {
+   height: 1150px;
+}
+
+.serviceImage {
+   width: 100%;
+}
+
+.serviceImage div {
+   width: 50%;
+   margin-top: 59px;
+   margin-left: 700px;
+   font-size: 17px;
+   font-family: "open sans", sans-serif;
+   letter-spacing: 1px;
+}
+
+.serviceImage h2 {
+   font-size: 22px;
+   height: 60px;
+}
+
+.serviceImage p {
+   color: rgb(128, 128, 128);
+   font-size: 17px;
+   margin-top: 30px;
+}
+
+#more {
+   display: none;
+}
+
+#less {
+   display: none;
+}
+
+.architectureSection {
+   width: 100%;
+   margin-top: -300px;
+}
+
+.architectureSection div {
+   display: inline-block;
+}
+
+.architectureSection div:nth-child(1) a img {
+   height: 1000px;
+   width: 1000px;
+   margin-left: 100px;
+   margin-top: 400px;
+}
+
+.architectureSection div:nth-child(2) a img {
+   height: 1000px;
+   width: 1600px;
+   margin-left: 25px;
+   margin-top: 400px;
+}
+
+.architectureSection h1 {
+   margin-left: 130px;
+   margin-top: -70px;
+   color: white;
+   font-size: 28px;
+   font-weight: 500;
+   font-family: "open sans", sans-serif;
+}
+
+
+.text {
+   width: 2000px;
+   margin-top: 100px;
+   margin-left: 100px;
+   font-size: 17px;
+   font-family: "open sans", sans-serif;
+   letter-spacing: 1px;
+   color: grey;
+}
+
+.text h1 {
+   color: black;
+   font-size: 28px;
+   font-weight: 500;
+   height: 50px;
+}
+
+#secondPara {
+   margin-top: 10px;
+}
+
+#thirdPara {
+   margin-top: 5px;
+}
+
+#fourthPara {
+   margin-top: 5px;
+}
+
+#more1 {
+   display: none;
+}
+
+#less1 {
+   display: none;
+}
+
+.interiorSection {
+   width: 100%;
+   margin-top: 50px;
+   margin-left: 65px;
+}
+
+.interiorSection div {
+   margin-left: 30px;
+   display: inline-block;
+}
+
+.interiorSection div:nth-child(1) a img {
+   width: 840px;
+}
+
+.interiorSection a img {
+   width: 865px;
+   height: 475px;
+}
+
+.interiorSection h1 {
+   margin-top: -50px;
+   color: white;
+   font-size: 28px;
+   font-weight: 500;
+   font-family: "open sans", sans-serif;
+   margin-left: 20px;
+}
+
+.commercial {
+   width: 100%;
+   margin-top: 10px;
+}
+
+.commercial p {
+   margin-left: 94px;
+   margin-top: 27px;
+   color: rgb(128, 128, 128);
+   font-size: 17px;
+   margin-top: 30px;
+   font-family: "open sans", sans-serif;
+   width: 1420px;
+}
+
+.commercial div {
+   display: inline-block;
+}
+
+.commercial div:nth-child(2) a img {
+   width: 1600px;
+   height: 900px;
+   margin-top: 40px;
+   margin-left: 94px;
+}
+
+.commercial div:nth-child(3) a img {
+   height: 900px;
+   margin-left: 30px;
+   width: 1005px;
+}
+
+.commercial div:nth-child(2) h1 {
+   margin-top: -65px;
+   margin-left: 120px;
+   color: white;
+   font-size: 28px;
+   font-family: "open sans", sans-serif;
+   font-weight: 500;
+}
+
+.commercial div:nth-child(3) h1 {
+   margin-top: -65px;
+   margin-left: 60px;
+   color: white;
+   font-size: 28px;
+   font-family: "open sans", sans-serif;
+   font-weight: 500;
+}
+
+@media (max-width : 576px) {
+   #navbar-container nav {
+      position: fixed;
+      z-index: 4;
+      width: 100%;
+   }
+
+   .serviceWebsiteHeading h1 {
+      margin-left: 10px;
+      padding-top: 82px;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+   }
+
+   .imgsSlider1 {
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+   }
+
+   .imgsSlider1 img {
+      height: 250px;
+   }
+
+   .serviceImage {
+      width: 100%;
+   }
+
+   .serviceImage div {
+      width: 95%;
+      margin-top: 52px;
+      margin-left: 14px;
+      letter-spacing: 1px;
+   }
+
+   .serviceImage div h2 {
+      font-size: 18px;
+      font-family: "open sans", sans-serif;
+      font-weight: 500;
+   }
+
+   .serviceImage div hr {
+      margin-top: -7px;
+      width: 93%;
+   }
+   #firstPara{
+      width: 95%;
+      font-size: 15px;
+   }
+   
+   .architectureSection {
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+   }
+
+   .architectureSection div {
+      display: block;
+      margin-left: 0px;
+      margin-top: -280px;
+   }
+
+   .architectureSection div:nth-child(1) a img {
+      height: 250px;
+      width: 50%;
+      margin-left: 14px;
+      margin-top: 320px;
+   }
+
+   .architectureSection div:nth-child(2) a img {
+      width: 92%;
+      height: 230px;
+      margin-left: 14px;
+      margin-top: 314px;
+   }
+
+   .architectureSection h1 {
+      margin-top: -50px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 20px;
+   }
+
+   .text {
+      width: 95%;
+      margin-top: 50px;
+      margin-left: 14px;
+
+   }
+
+   .text h1 {
+      font-size: 15px;
+   }
+
+   #secondPara {
+      font-size: 13px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+      margin-top: -10px;
+      width: 95%;
+   }
+
+   #thirdPara {
+      display: none;
+      font-size: 13px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+      width: 95%;
+   }
+
+   #fourthPara {
+      display: none;
+      font-size: 14px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+   }
+
+   #more1 {
+      display: block;
+      font-size: 13px;
+   }
+
+   #less1 {
+      display: none;
+      font-size: 13px;
+   }
+
+   .interiorSection {
+      width: 100%;
+      margin-top: 35px;
+      margin-left: 0px;
+   }
+
+   .interiorSection div {
+      display: block;
+      margin-left: 0px;
+      margin-top: 30px;
+
+   }
+
+   .interiorSection div:nth-child(1) a img {
+      width: 92%;
+   }
+
+   .interiorSection a img {
+      width: 92%;
+      height: 230px;
+      margin-left: 15px;
+      margin-top: 5px;
+   }
+
+   .interiorSection h1 {
+      margin-top: -50px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 20px;
+   }
+
+   .commercial {
+      width: 100%;
+      margin-top: 10px;
+   }
+
+   .commercial p {
+      margin-left: 14px;
+      margin-top: 27px;
+      color: rgb(128, 128, 128);
+      font-size: 14px;
+      margin-top: 30px;
+      font-family: "open sans", sans-serif;
+      width: 90%;
+   }
+
+   .commercial div {
+      display: block;
+   }
+
+   .commercial div:nth-child(2) a img {
+      width: 100%;
+      height: 230px;
+      margin-top: 30px;
+      margin-left: 0px;
+   }
+
+   .commercial div:nth-child(3) a img {
+      width: 100%;
+      height: 230px;
+      margin-top: 30px;
+      margin-left: 0px;
+   }
+
+   .commercial div:nth-child(2) h1 {
+      color: white;
+      margin-top: -38px;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 10px;
+   }
+
+   .commercial div:nth-child(3) h1 {
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 10px;
+      margin-top: -36px;
+   }
+
+
+   #serviceSelector {
+      position: absolute;
+      width: 50px;
+      border: none;
+      right: 77px;
+      top: 35.9%;
+      font-size: 14px;
+      font-family: "Hind";
+      color: rgb(197, 197, 197);
+      letter-spacing: 2px;
+      background-color: white;
+   }
+   #serviceSelector img{
+      display: block;
+      width: 16px;
+   }
+   #serviceSelector span{
+      display: none;
+      position: absolute;
+      left: -200px;
+      top: -70px;
+      background-color: black;
+      width: 300px;
+      height: 500px;
+   }
+}
+
+@media (min-width : 577px) and (max-width : 992px) {
+   #navbar-container nav {
+      position: fixed;
+      z-index: 4;
+      width: 100%;
+   }
+
+   .serviceWebsiteHeading h1 {
+      margin-left: 10px;
+      padding-top: 82px;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+   }
+
+   .imgsSlider1 {
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 10px;
+   }
+
+   .imgsSlider1 img {
+      height: 400px;
+   }
+
+   .serviceImage {
+      width: 100%;
+   }
+
+   .serviceImage div {
+      width: 95%;
+      margin-top: 52px;
+      margin-left: 14px;
+      letter-spacing: 1px;
+   }
+
+   .serviceImage div h2 {
+      font-size: 20px;
+      font-family: "open sans", sans-serif;
+      font-weight: 500;
+   }
+
+   .serviceImage div hr {
+      margin-top: -7px;
+      width: 95%;
+   }
+   #firstPara{
+      width: 95%;
+      font-size: 15px;
+   }
+   .architectureSection {
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+   }
+
+   .architectureSection div {
+      display: block;
+      margin-left: 0px;
+      margin-top: -280px;
+   }
+
+   .architectureSection div:nth-child(1) a img {
+      height: 400px;
+      width: 70%;
+      margin-left: 14px;
+      margin-top: 320px;
+   }
+
+   .architectureSection div:nth-child(2) a img {
+      width: 92%;
+      height: 400px;
+      margin-left: 14px;
+      margin-top: 314px;
+   }
+
+   .architectureSection h1 {
+      margin-top: -50px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 20px;
+   }
+
+   .text {
+      width: 95%;
+      margin-top: 50px;
+      margin-left: 14px;
+
+   }
+
+   .text h1 {
+      font-size: 15px;
+   }
+
+   #secondPara {
+      font-size: 13px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+      margin-top: -10px;
+      width: 95%;
+   }
+
+   #thirdPara {
+      display: none;
+      font-size: 13px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+   }
+
+   #fourthPara {
+      display: none;
+      font-size: 13px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+   }
+
+   #more1 {
+      display: block;
+      font-size: 13px;
+      margin-top: 5px;
+      color: grey;
+   }
+
+   #less1 {
+      display: none;
+      font-size: 13px;
+   }
+
+   .interiorSection {
+      width: 100%;
+      margin-top: 35px;
+      margin-left: 0px;
+   }
+
+   .interiorSection div {
+      display: block;
+      margin-left: 0px;
+      margin-top: 30px;
+
+   }
+
+   .interiorSection div:nth-child(1) a img {
+      width: 92%;
+   }
+
+   .interiorSection a img {
+      width: 92%;
+      height: 400px;
+      margin-left: 15px;
+      margin-top: 5px;
+   }
+
+   .interiorSection h1 {
+      margin-top: -50px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 20px;
+   }
+
+   .commercial {
+      width: 100%;
+      margin-top: 10px;
+   }
+
+   .commercial p {
+      margin-left: 14px;
+      margin-top: 27px;
+      color: rgb(128, 128, 128);
+      font-size: 14px;
+      margin-top: 30px;
+      font-family: "open sans", sans-serif;
+      width: 90%;
+   }
+
+   .commercial div {
+      display: block;
+   }
+
+   .commercial div:nth-child(2) a img {
+      width: 100%;
+      height: 400px;
+      margin-top: 30px;
+      margin-left: 0px;
+   }
+
+   .commercial div:nth-child(3) a img {
+      width: 70%;
+      height: 400px;
+      margin-top: 40px;
+      margin-left: 0px;
+   }
+
+   .commercial div:nth-child(2) h1 {
+      color: white;
+      margin-top: -50px;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 10px;
+   }
+
+   .commercial div:nth-child(3) h1 {
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 10px;
+   }
+
+
+   #serviceSelector {
+      position: absolute;
+      width: 50px;
+      border: none;
+      right: 250px;
+      top: 22%;
+      font-size: 14px;
+      font-family: "Hind";
+      color: rgb(197, 197, 197);
+      letter-spacing: 2px;
+      background-color: white;
+   }
+ 
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1632px) {
+   #navbar-container nav {
+      position: fixed;
+      z-index: 4;
+      width: 100%;
+   }
+
+   .serviceWebsiteHeading h1 {
+      margin-left: 52px;
+      padding-top: 75px;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 2px;
+   }
+
+   .imgsSlider1 {
+      width: 93%;
+      margin-left: 50px;
+      margin-top: 0px;
+   }
+
+   .imgsSlider1 img {
+      height: 600px;
+   }
+
+   .serviceImage {
+      width: 100%;
+   }
+
+   .serviceImage div {
+      width: 95%;
+      margin-top: 50px;
+      margin-left: 53px;
+     
+   }
+#firstPara{
+   font-size: 15px;
+}
+   .serviceImage hr {
+      width: 74%;
+   }
+
+   .architectureSection {
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+   }
+
+   .architectureSection div {
+      display: inline-block;
+      margin-left: 0px;
+      margin-top: -280px;
+   }
+
+   .architectureSection div:nth-child(1) a img {
+      height: 500px;
+      width: 430px;
+      margin-left: 50px;
+      margin-top: 340px;
+   }
+
+   .architectureSection div:nth-child(2) a img {
+      height: 500px;
+      width: 878px;
+      margin-left: 25px;
+      margin-top: 10px;
+   }
+
+   .architectureSection div:nth-child(1) h1 {
+      margin-top: -32px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 60px;
+   }
+
+   .architectureSection div:nth-child(2) h1 {
+      margin-top: -32px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 60px;
+      margin-left: 40px;
+   }
+
+   .text {
+      width: 1300px;
+      margin-top: 55px;
+      margin-left: 50px;
+
+   }
+
+   .text h1 {
+      font-size: 24px;
+   }
+
+   #secondPara {
+      font-size: 15px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+      width: 1200px;
+   }
+
+   #thirdPara {
+      font-size: 15px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+   }
+
+   #fourthPara {
+      font-size: 14px;
+      font-family: "open sans", sans-serif;
+      letter-spacing: 1px;
+      color: grey;
+      line-height: 20px;
+   }
+
+   .interiorSection {
+      width: 100%;
+      margin-top: 50px;
+      margin-left: 0px;
+   }
+
+   .interiorSection div:nth-child(1) {
+      display: block;
+      margin-left: 50px;
+      margin-top: 30px;
+
+   }
+
+   .interiorSection div:nth-child(1) a img {
+      width: 96%;
+      height: 600px;
+   }
+
+   .interiorSection div:nth-child(2) {
+      display: inline-block;
+      margin-top: 35px;
+      margin-left: 50px;
+   }
+
+   .interiorSection div:nth-child(2) a img {
+      width: 650px;
+      height: 400px;
+   }
+
+   .interiorSection div:nth-child(3) {
+      display: inline-block;
+   }
+
+   .interiorSection div:nth-child(3) a img {
+      width: 650px;
+      height: 400px;
+   }
+
+   .interiorSection h1 {
+      margin-top: -35px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 15px;
+   }
+
+   .commercial {
+      width: 100%;
+      margin-top: 50px;
+   }
+
+   .commercial p {
+      margin-left: 50px;
+      margin-top: 27px;
+      color: rgb(128, 128, 128);
+      font-size: 14px;
+      margin-top: 30px;
+      font-family: "open sans", sans-serif;
+      width: 75%;
+   }
+
+   .commercial div {
+      display: inline-block;
+   }
+
+   .commercial div:nth-child(2) a img {
+      width: 850px;
+      height: 500px;
+      margin-top: 40px;
+      margin-left: 50px;
+   }
+
+   .commercial div:nth-child(3) a img {
+      width: 450px;
+      height: 500px;
+      margin-left: 30px;
+   }
+
+   .commercial div:nth-child(2) h1 {
+      margin-top: -40px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 70px;
+   }
+
+   .commercial div:nth-child(3) h1 {
+      margin-top: -40px;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: "open sans", sans-serif;
+      margin-left: 47px;
+   }
+
+   #serviceSelector {
+      position: absolute;
+      width: 50px;
+      border: none;
+      margin-left: 30px;
+      top: 60%;
+      font-size: 14px;
+      font-family: "Hind";
+      color: rgb(197, 197, 197);
+      letter-spacing: 2px;
+      background-color: white;
+   }
+
+}
